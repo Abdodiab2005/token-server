@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import fs from "fs";
 import path from "path";
+import "dotenv/config";
 import streamRoute from "./routes/stream.route.js";
 
 const app = express();
